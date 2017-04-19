@@ -74,7 +74,7 @@ div#mw-panel {
     width: 200px;
     background-size: 128px;
     display: block;
-    background-image: url('images/logo-en.svg');
+    background-image: url('https://bytebucket.org/loogart/innofair-2017/raw/944be2d1b64eee16d7aa7c3e9120a2f86cb79395/images/logo-en.svg');
     background-repeat: no-repeat;
     background-position: 50% 60%;
 }
@@ -83,7 +83,7 @@ div#mw-panel {
     background-color: #000;
     color: #fff;
     padding: 120px 0 130px;
-    background-image: url('images/jumbotron-img1.jpg');
+    background-image: url('https://bytebucket.org/loogart/innofair-2017/raw/944be2d1b64eee16d7aa7c3e9120a2f86cb79395/images/jumbotron-img1.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,6 +95,12 @@ div#mw-panel {
     font-size: 10em;
     font-weight: 600;
     line-height: .9em;
+}
+
+@media (max-width:767px){
+    .j1 h1{
+        font-size: 6rem;
+    }
 }
 
 .navbar {
