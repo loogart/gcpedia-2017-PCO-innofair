@@ -1,5 +1,30 @@
 /* THIS IS THE SECRET SAUCE, DO NOT EDIT!*/
 
+html,
+body {
+    height: 100%;
+    -webkit-animation: fadein .5s;
+    animation: fadein .5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900');
 * {
     margin: 0;
@@ -12,7 +37,7 @@
 
 body {
     overflow-y: hidden;
-    background-color: #262860;
+    background-color: #f8f8f8;
 }
 
 div#mw-head {
@@ -82,7 +107,7 @@ div#mw-panel {
 }
 
 .j1 {
-    background-color: #000;
+    background-color: #e5e5e5;
     color: #fff;
     padding: 120px 0 130px;
     background-image: url('https://bytebucket.org/loogart/innofair-2017/raw/944be2d1b64eee16d7aa7c3e9120a2f86cb79395/images/jumbotron-img1.jpg');
@@ -104,7 +129,19 @@ div#mw-panel {
     background-color: #ccc;
     color: #fff;
     padding: 240px 0 80px;
-    background-image: url('');
+    background-image: url('images/tradeshow-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20vh;
+    text-align: left;
+}
+
+.j3 {
+    background-color: #ccc;
+    color: #fff;
+    padding: 240px 0 80px;
+    background-image: url('images/event.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -204,6 +241,7 @@ div#mw-panel {
 
 .dropdown-menu {
     padding: 0;
+    border: 1px solid #f8f8f8;
 }
 
 .dropdown-menu>li>a {
@@ -227,10 +265,14 @@ div#mw-panel {
     padding-bottom: .3em;
 }
 
+a.tile-link:focus,
+a.tile-link:hover {
+    text-decoration: none;
+}
+
 .tile {
     color: #fff;
-    height: 250px;
-    padding: 20px 30px 40px;
+    padding: 0 0 25px;
     margin-bottom: 30px;
     transition: all .2s ease-in;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -238,12 +280,44 @@ div#mw-panel {
 
 .tile img {
     width: 100%;
-    height: 150px;
+    height: 200px;
+    object-fit: cover;
+    transition: all .2s ease-in;
+}
+
+.tile:hover img {
+    filter: brightness(.7)
+}
+
+.tile .title {
+    padding: 10px 20px 0;
+}
+
+.tile .title h5 {
+    margin-top: 20px;
+}
+
+a.tile-link:focus h5,
+a.tile-link:hover h5 {
+    text-decoration: underline;
 }
 
 .tile:hover {
     transform: translateY(-5px);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.tile p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    /* fallback */
+    max-height: 32px;
+    /* fallback */
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
 
@@ -325,4 +399,59 @@ div#mw-panel {
 .container#sparks {
     padding-top: 60px;
     margin-top: -60px;
+}
+
+.programme h2 {
+    color: #262860;
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 30px auto;
+}
+
+.programme h4 {
+    color: #262860;
+}
+
+.location-box {
+    display: inline-block;
+    padding: 3px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    border-radius: 2px;
+    border: 2px solid #262860;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-yw4l {
+    vertical-align: top
 }
