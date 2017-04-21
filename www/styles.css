@@ -33,11 +33,14 @@ body {
     color: #262860;
 }
 
+
 /* THIS IS THE SECRET SAUCE for GCpedia, BODY AND SUPER-BODY classes */
-body {
+
+/*body {
     overflow-y: hidden;
     background-color: #f8f8f8;
 }
+
 .super-body {
     position: fixed;
     overflow-y: scroll;
@@ -54,8 +57,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-
-
+*/
 div#mw-head {
     position: absolute;
     top: 145px;
@@ -268,9 +270,9 @@ div#mw-panel {
     border-bottom: 1px dotted #ccc;
 }
 
-ul.nav li.dropdown:hover ul.dropdown-menu {
+/*ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
-}
+}*/
 
 .mw-body h3,
 .mw-body h4,
@@ -373,6 +375,7 @@ a.tile-link:hover h5 {
 
 .home-tiles {
     margin-top: -60px;
+    display: block;
 }
 
 .background-green-1 {
