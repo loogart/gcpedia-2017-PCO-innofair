@@ -52,87 +52,108 @@
         </div>
     </nav>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron j1" style="background-image:url('http://www.gcpedia.gc.ca/gcwiki/images/5/5e/Augmented-reality-loogart.jpg')">
-        <div class="container">
-            <h1>Salon de l'innovation 2018</h1>
-            <div class="row">
-                <div class="col-sm-8">
-                    <p style="letter-spacing:1px;">Faites partie de notre réseau social et soyez à l'affût des développements du salon de l'innovation 2018.
-                    </p>
-                    <h3>&rang; Mai 2018</h3>
+    <!-- Popup 1-->
+    <div class="modal fade" id="popup1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">Bientôt disponible!</h3>
+                </div>
+                <img src="http://www.gcpedia.gc.ca/gcwiki/images/5/5e/Augmented-reality-loogart.jpg" class="img-responsive">
+                <div class="modal-body">
+                    Faites partie de notre réseau social et soyez à l'affût des développements du salon de l'innovation 2018.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+        <div class="modal-scrim"></div>
     </div>
 
-    <!-- content -->
-    <section class="home-tiles">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <a href="./Salon_innovation_2017/salonpro" class="tile-link">
-                        <div class="tile background-blue-1">
-                            <img src="http://www.gcpedia.gc.ca/gcwiki/images/0/0b/Innofair-tradeshow-1.jpg">
-                            <div class="title">
-                                <h2>Salon professionnel</h2>
-                                <p>Le salon professionnel présentera les plus récentes innovations des ministères et organismes de la fonction publique. Le volet se déroulant à l’intérieur, au 90, rue Elgin, présentera des exemples d’excellence et d’innovation dans la façon dont nous soutenons le gouvernement, et dans la façon dont nous bâtissons un effectif sain et productif. Le volet se déroulant à l’extérieur, le long de la rue Sparks, portera sur l’excellence des services offerts aux Canadiens.
-                                </p>
-                                <h5>&rang; Lire la suite</h5>
-                            </div>
-                        </div>
-                    </a>
+    <main>
+        <!-- Jumbotron -->
+        <div class="jumbotron j1" style="background-image:url('http://www.gcpedia.gc.ca/gcwiki/images/5/5e/Augmented-reality-loogart.jpg')">
+            <div class="container">
+                <h1>Salon de l'innovation 2018</h1>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p style="letter-spacing:1px;">Faites partie de notre réseau social et soyez à l'affût des développements du salon de l'innovation 2018.
+                        </p>
+                        <h3>&rang; Mai 2018</h3>
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <a href="./Salon_innovation_2017/programme#regions" class="tile-link">
-                        <div class="tile background-blue-main">
-                            <img src="http://www.gcpedia.gc.ca/gcwiki/images/c/c4/Innofair-toronto.jpg">
-                            <div class="title">
-                                <h2>Zone des régions</h2>
-                                <p>Venez visiter la zone des Régions où les participants d'Ottawa pourront aussi profiter et participer à certaines activités et discussions avec les régions.</p>
-                                <h5>&rang; Lire la suite</h5>
+        <!-- content -->
+        <section class="home-tiles">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#!" class="tile-link" data-toggle="modal" data-target="#popup1">
+                            <div class="tile background-blue-main">
+                                <img src="http://www.gcpedia.gc.ca/gcwiki/images/0/0b/Innofair-tradeshow-1.jpg">
+                                <div class="title">
+                                    <h2>Salon professionnel</h2>
+                                    <p>Le salon professionnel présentera les plus récentes innovations des ministères et organismes de la fonction publique. Le volet se déroulant à l’intérieur, au 90, rue Elgin, présentera des exemples d’excellence et d’innovation dans la façon dont nous soutenons le gouvernement, et dans la façon dont nous bâtissons un effectif sain et productif. Le volet se déroulant à l’extérieur, le long de la rue Sparks, portera sur l’excellence des services offerts aux Canadiens.
+                                    </p>
+                                    <h5>&rang; Lire la suite</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a href="./Salon_innovation_2017/programme#fedtalks" class="tile-link">
-                        <div class="tile background-blue-main">
-                            <img src="http://www.gcpedia.gc.ca/gcwiki/images/e/e7/Innofair-fedtalks.jpg">
-                            <div class="title">
-                                <h2>Conférences FEDérologues </h2>
-                                <p>Les conférences FEDérologues sont des présentations de 30 minutes ayant lieu tout au long de la journée du salon de l’innovation et qui sont diffusées sur le Web à l’échelle nationale. Les conférences FEDérologues aborderont les priorités pour la fonction publique.</p>
-                                <h5>&rang; Lire la suite</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#!" class="tile-link" data-toggle="modal" data-target="#popup1">
+                            <div class="tile background-blue-main">
+                                <img src="http://www.gcpedia.gc.ca/gcwiki/images/c/c4/Innofair-toronto.jpg">
+                                <div class="title">
+                                    <h2>Zone des régions</h2>
+                                    <p>Venez visiter la zone des Régions où les participants d'Ottawa pourront aussi profiter et participer à certaines activités et discussions avec les régions.</p>
+                                    <h5>&rang; Lire la suite</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a href="./Salon_innovation_2017/programme#workshops" class="tile-link">
-                        <div class="tile background-green-1">
-                            <img src="http://www.gcpedia.gc.ca/gcwiki/images/9/97/Innofair-workshops.jpg">
-                            <div class="title">
-                                <h2>Ateliers</h2>
-                                <p>Des ateliers auront lieu tout au long de la journée au 90, rue Elgin. Ceux-ci porteront sur la diversité, l’inclusion, l’habilitation et la réconciliation. L’atelier sur l’accessibilité sera diffusé sur le Web partout au pays.</p>
-                                <h5>&rang; Lire la suite</h5>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#!" class="tile-link" data-toggle="modal" data-target="#popup1">
+                            <div class="tile background-blue-main">
+                                <img src="http://www.gcpedia.gc.ca/gcwiki/images/e/e7/Innofair-fedtalks.jpg">
+                                <div class="title">
+                                    <h2>Conférences FEDérologues </h2>
+                                    <p>Les conférences FEDérologues sont des présentations de 30 minutes ayant lieu tout au long de la journée du salon de l’innovation et qui sont diffusées sur le Web à l’échelle nationale. Les conférences FEDérologues aborderont les priorités pour la fonction publique.</p>
+                                    <h5>&rang; Lire la suite</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a href="./Salon_innovation_2017/programme#health" class="tile-link">
-                        <div class="tile background-blue-2">
-                            <img src="http://www.gcpedia.gc.ca/gcwiki/images/3/33/Innofair-health.jpg">
-                            <div class="title">
-                                <h2>Santé et mieux-être</h2>
-                                <p>Venez découvrir la Zone de santé mentale et mieux-être pour voir comment les fonctionnaires changent la culture pour être respectueux envers la santé mentale de tous nos collègues. Rejoignez la conversation et aidez à réduire la stigmatisation associée à la santé mentale et apprenez comment nous pouvons tous contribuer à un milieu de travail sain.</p>
-                                <h5>&rang; Lire la suite</h5>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#!" class="tile-link" data-toggle="modal" data-target="#popup1">
+                            <div class="tile background-blue-main">
+                                <img src="http://www.gcpedia.gc.ca/gcwiki/images/9/97/Innofair-workshops.jpg">
+                                <div class="title">
+                                    <h2>Ateliers</h2>
+                                    <p>Des ateliers auront lieu tout au long de la journée au 90, rue Elgin. Ceux-ci porteront sur la diversité, l’inclusion, l’habilitation et la réconciliation. L’atelier sur l’accessibilité sera diffusé sur le Web partout au pays.</p>
+                                    <h5>&rang; Lire la suite</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-               <!-- <div class="col-sm-6 col-md-4">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#!" class="tile-link" data-toggle="modal" data-target="#popup1">
+                            <div class="tile background-blue-main">
+                                <img src="http://www.gcpedia.gc.ca/gcwiki/images/3/33/Innofair-health.jpg">
+                                <div class="title">
+                                    <h2>Santé et mieux-être</h2>
+                                    <p>Venez découvrir la Zone de santé mentale et mieux-être pour voir comment les fonctionnaires changent la culture pour être respectueux envers la santé mentale de tous nos collègues. Rejoignez la conversation et aidez à réduire la stigmatisation associée à la santé mentale et apprenez comment nous pouvons tous contribuer à un milieu de travail sain.</p>
+                                    <h5>&rang; Lire la suite</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="col-sm-6 col-md-4">
                     <a href="./Salon_innovation_2017/programme#recruitment" class="tile-link">
                         <div class="tile background-blue-main">
                             <img src="http://www.gcpedia.gc.ca/gcwiki/images/a/a7/Innofair-recruit.jpg">
@@ -144,19 +165,19 @@
                         </div>
                     </a>
                 </div>-->
-                <div class="col-sm-6 col-md-4">
-                    <a href="./Salon_innovation_2017/programme#living" class="tile-link">
-                        <div class="tile background-orange-1">
-                            <img src="http://www.gcpedia.gc.ca/gcwiki/images/2/26/Innofair-diversity.jpg">
-                            <div class="title">
-                                <h2>Bibliothèque vivante</h2>
-                                <p>La bibliothèque vivante offre aux fonctionnaires une occasion interactive de connaître les différentes expériences de leurs collègues. Le fait de permettre aux fonctionnaires de partager leurs expériences entre eux permet de nouer des relations et d'éliminer les stéréotypes, ce qui contribue à un milieu de travail plus sain et respectueux. Cette année, la bibliothèque vivante aura lieu le matin (de 10 h 15 à 11 h 45) et en après-midi (de 13 h 30 à 15 h). Elle portera sur cinq thèmes, dont 'FP@150', 'Santé mentale', 'Diversité et inclusion', 'Derrière l'uniforme' et 'Emplois intéressants'.</p>
-                                <h5>&rang; Lire la suite</h5>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#!" class="tile-link" data-toggle="modal" data-target="#popup1">
+                            <div class="tile background-blue-main">
+                                <img src="http://www.gcpedia.gc.ca/gcwiki/images/2/26/Innofair-diversity.jpg">
+                                <div class="title">
+                                    <h2>Bibliothèque vivante</h2>
+                                    <p>La bibliothèque vivante offre aux fonctionnaires une occasion interactive de connaître les différentes expériences de leurs collègues. Le fait de permettre aux fonctionnaires de partager leurs expériences entre eux permet de nouer des relations et d'éliminer les stéréotypes, ce qui contribue à un milieu de travail plus sain et respectueux. Cette année, la bibliothèque vivante aura lieu le matin (de 10 h 15 à 11 h 45) et en après-midi (de 13 h 30 à 15 h). Elle portera sur cinq thèmes, dont 'FP@150', 'Santé mentale', 'Diversité et inclusion', 'Derrière l'uniforme' et 'Emplois intéressants'.</p>
+                                    <h5>&rang; Lire la suite</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!--<div class="col-sm-6 col-md-4">
+                        </a>
+                    </div>
+                    <!--<div class="col-sm-6 col-md-4">
                     <a href="./Salon_innovation_2017/programme#blueprinttv" class="tile-link">
                         <div class="tile background-blue-3">
                             <img src="http://www.gcpedia.gc.ca/gcwiki/images/8/80/Innofair-blueprinttv.jpg">
@@ -169,9 +190,10 @@
                     </a>
                 </div>-->
 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- footer -->
     <section class="footer">

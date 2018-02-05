@@ -6,14 +6,14 @@
     #mw-panel {
         display: none;
     }
-    
+
     html,
     body {
         height: 100%;
         -webkit-animation: fadein .5s;
         animation: fadein .5s;
     }
-    
+
     @keyframes fadein {
         from {
             opacity: 0;
@@ -22,7 +22,7 @@
             opacity: 1;
         }
     }
-    
+
     @-webkit-keyframes fadein {
         from {
             opacity: 0;
@@ -31,23 +31,24 @@
             opacity: 1;
         }
     }
-    
+
     @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900');
     * {
         margin: 0;
         padding: 0;
     }
-    
+
     .navbar-default .navbar-nav>li>a:visited {
         color: #262860;
     }
+
     /* THIS IS THE SECRET SAUCE for GCpedia, BODY AND SUPER-BODY classes */
-    
+
     body {
         overflow-y: hidden;
         background-color: #f8f8f8;
     }
-    
+
     .super-body {
         position: fixed;
         overflow-y: scroll;
@@ -65,7 +66,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
-    
+
     div#mw-head {
         position: absolute;
         top: 145px;
@@ -73,7 +74,7 @@
         width: 100%;
         display: none;
     }
-    
+
     div#mw-panel {
         font-size: inherit;
         position: absolute;
@@ -83,25 +84,25 @@
         left: 0;
         display: none;
     }
-    
+
     #footer {
         display: none;
     }
-    
+
     .mw-content-ltr ul,
     .mw-content-rtl .mw-content-ltr ul {
         margin: 0;
     }
-    
+
     .mw-body {
         margin-left: 0;
         padding: 0;
     }
-    
+
     .mw-body .mw-body-content h1 {
         margin-top: 0;
     }
-    
+
     .mw-body h1,
     .mw-body h2 {
         font-family: sans-serif;
@@ -110,7 +111,7 @@
         padding: 0;
         border-bottom: 1px solid transparent;
     }
-    
+
     .logo {
         height: 59px;
         width: 200px;
@@ -120,7 +121,7 @@
         background-repeat: no-repeat;
         background-position: 50% 60%;
     }
-    
+
     .logo-fr {
         height: 59px;
         width: 200px;
@@ -130,7 +131,7 @@
         background-repeat: no-repeat;
         background-position: 50% 60%;
     }
-    
+
     .j1 {
         background-color: #e5e5e5;
         color: #fff;
@@ -143,14 +144,14 @@
         text-align: left;
         margin-bottom: 0;
     }
-    
+
     .j1 h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 10em;
         font-weight: 600;
         line-height: .9em;
     }
-    
+
     .j2 {
         font-family: 'Roboto', sans-serif;
         background-color: #ccc;
@@ -163,7 +164,7 @@
         min-height: 20vh;
         text-align: left;
     }
-    
+
     .j3 {
         font-family: 'Roboto', sans-serif;
         background-color: #ccc;
@@ -176,7 +177,7 @@
         min-height: 20vh;
         text-align: left;
     }
-    
+
     .j4 {
         font-family: 'Roboto', sans-serif;
         background-color: #ccc;
@@ -189,13 +190,13 @@
         min-height: 20vh;
         text-align: left;
     }
-    
+
     .j2 h1 {
         font-size: 5em;
         font-weight: 600;
         line-height: .9em;
     }
-    
+
     @media (max-width:767px) {
         .j1 h1 {
             font-size: 5rem;
@@ -204,7 +205,7 @@
             font-size: 5rem;
         }
     }
-    
+
     .navbar {
         margin-bottom: 0;
         position: fixed;
@@ -216,7 +217,7 @@
         height: 59px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01), 0 1px 2px rgba(0, 0, 0, 0.06);
     }
-    
+
     .navbar-toggle {
         position: relative;
         float: right;
@@ -229,33 +230,33 @@
         border: 1px solid transparent;
         border-radius: 4px;
     }
-    
+
     .navbar-default {
         background: rgba(255, 255, 255, 1);
         border-color: transparent;
     }
-    
+
     .navbar-default .navbar-nav>li>a {
         color: #262860;
         font-weight: 600;
         border-bottom: 6px solid transparent;
         padding-top: 18px;
     }
-    
+
     .navbar-default .navbar-nav>li>a:hover,
     .navbar-default .navbar-nav>li>a:focus {
         color: #262860;
         background-color: transparent;
         border-bottom: 6px solid #262860;
     }
-    
+
     .navbar-default .navbar-nav>li.active>a,
     .navbar-default .navbar-nav>li.active>a {
         color: #262860;
         background-color: transparent;
         border-bottom: 6px solid #262860;
     }
-    
+
     .navbar-default .navbar-nav>.active>a,
     .navbar-default .navbar-nav>.active>a:hover,
     .navbar-default .navbar-nav>.active>a:focus {
@@ -263,29 +264,29 @@
         background-color: transparent;
         border-bottom: 6px solid #262860;
     }
-    
+
     .navbar-default .navbar-brand {
         color: #fff;
         background-color: #262860;
         min-height: 58px;
     }
-    
+
     .navbar-default .navbar-brand:focus,
     .navbar-default .navbar-brand:hover {
         color: #f8f8f8;
         background-color: #262860;
     }
-    
+
     .navbar-collapse.collapsing,
     .navbar-collapse.collapse.in {
         background-color: #fff;
     }
-    
+
     .dropdown-menu {
         padding: 0;
         border: 1px solid #f8f8f8;
     }
-    
+
     .dropdown-menu>li>a {
         display: block;
         padding: 15px 20px;
@@ -296,10 +297,11 @@
         white-space: nowrap;
         border-bottom: 1px dotted #ccc;
     }
+
     /*ul.nav li.dropdown:hover ul.dropdown-menu {
         display: block;
     }*/
-    
+
     .mw-body h3,
     .mw-body h4,
     .mw-body h5,
@@ -310,12 +312,12 @@
         padding-bottom: .3em;
         padding-top: 0;
     }
-    
+
     a.tile-link:focus,
     a.tile-link:hover {
         text-decoration: none;
     }
-    
+
     .tile {
         color: #fff;
         padding: 0 0 25px;
@@ -324,7 +326,7 @@
         transition: all .2s ease-in;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     }
-    
+
     .tile img {
         width: 100%;
         height: 200px;
@@ -333,31 +335,31 @@
         -webkit-transition: all .2s ease-in;
         transition: all .2s ease-in;
     }
-    
+
     .tile:hover img {
         -webkit-filter: brightness(.7);
         filter: brightness(.7)
     }
-    
+
     .tile .title {
         padding: 10px 20px 0;
     }
-    
+
     .tile .title h5 {
         margin-top: 20px;
     }
-    
+
     a.tile-link:focus h5,
     a.tile-link:hover h5 {
         text-decoration: underline;
     }
-    
+
     .tile:hover {
         -webkit-transform: translateY(-5px);
         transform: translateY(-5px);
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     }
-    
+
     .tile p,
     .card-tradeshow p {
         overflow: hidden;
@@ -371,7 +373,7 @@
         /* number of lines to show */
         -webkit-box-orient: vertical;
     }
-    
+
     .card-tradeshow h4 {
         overflow: hidden;
         text-overflow: ellipsis;
@@ -384,72 +386,73 @@
         /* number of lines to show */
         -webkit-box-orient: vertical;
     }
+
     /* to edit styles on GCPedia, go to: http://www.gcpedia.gc.ca/gcwiki/index.php?title=Template:Awesome-styles&action=edit */
-    
+
     .background-blue-1 {
         background-color: #4A90E2;
     }
-    
+
     .background-blue-2 {
         background-color: #A8C7DD;
     }
-    
+
     .background-blue-main {
         background-color: #262860;
     }
-    
+
     .home-tiles {
         margin-top: -60px;
     }
-    
+
     .background-green-1 {
         background-color: #417505;
     }
-    
+
     .background-orange-1 {
         background-color: #F5A623;
     }
-    
+
     .background-blue-3 {
         background-color: #2D32BE;
     }
-    
+
     .footer {
         min-height: 150px;
         background-color: #262860;
         padding: 60px 0;
         color: #fff;
     }
-    
+
     .footer h2 {
         margin-bottom: 30px;
     }
-    
+
     .footer hr {
         margin: 40px auto;
     }
-    
+
     .footer a {
         color: #F5A623;
     }
-    
+
     .tradeshow-tiles {}
-    
+
     .tradeshow-tiles .intro-text {
         font-size: 18px;
     }
-    
+
     .tradeshow-tiles h2 {
         color: #262860;
         font-weight: 600;
         font-size: 5rem;
         margin: 30px auto;
     }
-    
+
     .card-tradeshow {
         margin: 20px auto;
     }
-    
+
     .card-tradeshow img {
         -o-object-fit: cover;
         object-fit: cover;
@@ -459,12 +462,12 @@
         -webkit-transition: all .2s ease;
         transition: all .2s ease;
     }
-    
+
     .card-tradeshow img:hover {
         -webkit-transform: translateY(-7px);
         transform: translateY(-7px);
     }
-    
+
     .container#elgin,
     .container#sparks,
     #regions,
@@ -480,30 +483,30 @@
         padding-top: 60px;
         margin-top: -60px;
     }
-    
+
     .programme h2 {
         color: #262860;
         font-weight: 600;
         font-size: 5rem;
         margin: 30px auto 0;
     }
-    
+
     .programme .location-box h4 {
         color: #262860;
     }
-    
+
     .programme h3 {
         color: #F5A623;
     }
-    
+
     .programme p {
         margin: 15px auto 30px;
     }
-    
+
     .programme hr {
         margin-top: 60px;
     }
-    
+
     .location-box {
         display: inline-block;
         padding: 3px 12px;
@@ -517,27 +520,27 @@
         border-radius: 2px;
         border: 2px solid #262860;
     }
-    
+
     table {
         color: #262860;
         background-color: #F0EDED;
     }
-    
+
     table tr:first-child {
         background-color: #262860;
         color: #fff;
         font-weight: 600;
     }
-    
+
     table td:first-child {
         font-weight: 600;
         max-width: 420px;
     }
-    
+
     table tr h6 {
         color: #3d41a5;
     }
-    
+
     table tr h5 {
         font-weight: 400;
         color: #222;
@@ -552,11 +555,29 @@
         /* number of lines to show */
         -webkit-box-orient: vertical;
     }
-    
+
     .text-full {
         overflow: visible;
         max-height: none;
         display: block;
+    }
+    
+    /* modal css */
+
+    div.modal-backdrop.fade.in {
+        display: none;
+        z-index:1;
+    }
+
+    .modal-scrim {
+        background-color: rgba(0, 0, 0, .4);
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
     }
 
 </style>
